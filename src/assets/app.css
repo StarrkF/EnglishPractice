@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+    @apply
+    
+    p-20
+    max-h-min
+    max-w-min
+    my-20
+    mx-auto
+    rounded-xl
+    shadow-3xl
+    shadow-cyan-600
+    hover:shadow-cyan-300
+    hover:cursor-pointer
+    hover:scale-105
+    transition-all duration-500 bg-gradient-to-tl to-black via-cyan-800 from-black bg-size-200 bg-pos-0 hover:bg-pos-100
+    
+}
